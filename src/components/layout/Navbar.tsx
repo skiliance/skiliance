@@ -48,8 +48,8 @@ export function Navbar() {
           to="/"
           className="flex items-center space-x-2 text-2xl font-bold text-foreground"
         >
-          <span className="text-primary">Acct</span>
-          <span>Finance</span>
+          <span className="text-primary">skil</span>
+          <span>iance</span>
         </Link>
         
         {/* Desktop Navigation */}
