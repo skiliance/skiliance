@@ -23,8 +23,8 @@ export function Footer() {
               to="/"
               className="flex items-center space-x-2 text-2xl font-bold text-foreground"
             >
-              <span className="text-primary">Acct</span>
-              <span>Finance</span>
+              <span className="text-primary">Skiliance</span>
+              {/* <span>Finance</span> */}
             </Link>
             <p className="text-muted-foreground">
               Professional accounting services tailored to your business needs. We handle the numbers so you can focus on growth.
