@@ -14,7 +14,7 @@ const testimonials = [
     id: 1,
     name: "Sarah Johnson",
     position: "CEO, TechStart Inc.",
-    content: "AcctFinance transformed our financial management. Their team's expertise and attention to detail have saved us countless hours and improved our financial clarity. They're not just service providers, they're partners in our success.",
+    content: "skiliance transformed our financial management. Their team's expertise and attention to detail have saved us countless hours and improved our financial clarity. They're not just service providers, they're partners in our success.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
     industry: "Technology"
@@ -23,7 +23,7 @@ const testimonials = [
     id: 2,
     name: "Michael Chen",
     position: "Founder, GreenEats",
-    content: "As a restaurant owner, accounting was always a challenge until we found AcctFinance. Their industry-specific knowledge and proactive approach have helped us optimize our finances and focus on what we do best - serving great food.",
+    content: "As a restaurant owner, accounting was always a challenge until we found skiliance. Their industry-specific knowledge and proactive approach have helped us optimize our finances and focus on what we do best - serving great food.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
     industry: "Food & Beverage"
@@ -32,7 +32,7 @@ const testimonials = [
     id: 3,
     name: "Emily Rodriguez",
     position: "Director, Global Imports",
-    content: "Their expertise in international accounting has been invaluable for our import/export business. The team at AcctFinance handles our complex financial needs with professionalism and precision. Highly recommended!",
+    content: "Their expertise in international accounting has been invaluable for our import/export business. The team at skiliance handles our complex financial needs with professionalism and precision. Highly recommended!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200",
     industry: "Import/Export"
@@ -41,7 +41,7 @@ const testimonials = [
     id: 4,
     name: "David Wilson",
     position: "Owner, Wilson Construction",
-    content: "AcctFinance's understanding of the construction industry has made them an essential part of our business. Their payroll and project accounting services have streamlined our operations and improved our bottom line.",
+    content: "skiliance's understanding of the construction industry has made them an essential part of our business. Their payroll and project accounting services have streamlined our operations and improved our bottom line.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
     industry: "Construction"
@@ -50,7 +50,7 @@ const testimonials = [
     id: 5,
     name: "Olivia Martinez",
     position: "CFO, HealthPlus",
-    content: "The healthcare industry has complex accounting needs, and AcctFinance has consistently delivered exceptional service. Their team's knowledge of healthcare regulations and reimbursement structures has been particularly valuable to us.",
+    content: "The healthcare industry has complex accounting needs, and skiliance has consistently delivered exceptional service. Their team's knowledge of healthcare regulations and reimbursement structures has been particularly valuable to us.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=200",
     industry: "Healthcare"
@@ -59,7 +59,7 @@ const testimonials = [
     id: 6,
     name: "James Thompson",
     position: "Managing Director, Thompson Manufacturing",
-    content: "We've been working with AcctFinance for over five years, and they've become an integral part of our financial operations. Their manufacturing accounting expertise has helped us optimize our production costs and improve profitability.",
+    content: "We've been working with skiliance for over five years, and they've become an integral part of our financial operations. Their manufacturing accounting expertise has helped us optimize our production costs and improve profitability.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200",
     industry: "Manufacturing"
@@ -68,7 +68,7 @@ const testimonials = [
     id: 7,
     name: "Sophia Williams",
     position: "Founder, Eco Solutions",
-    content: "As a startup, finding the right accounting partner was crucial. AcctFinance not only provided excellent accounting services but also offered valuable financial advice that helped us secure our first round of funding.",
+    content: "As a startup, finding the right accounting partner was crucial. skiliance not only provided excellent accounting services but also offered valuable financial advice that helped us secure our first round of funding.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&q=80&w=200",
     industry: "Environmental"
@@ -77,7 +77,7 @@ const testimonials = [
     id: 8,
     name: "Robert Kim",
     position: "Director, Premier Properties",
-    content: "Real estate accounting requires specialized knowledge, and AcctFinance delivers. Their expertise in property management accounting has helped us maximize tax benefits and improve our property portfolio performance.",
+    content: "Real estate accounting requires specialized knowledge, and skiliance delivers. Their expertise in property management accounting has helped us maximize tax benefits and improve our property portfolio performance.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=200",
     industry: "Real Estate"
@@ -92,7 +92,7 @@ const Testimonials = () => {
   return (
     <>
       <Helmet>
-        <title>Client Testimonials | AcctFinance</title>
+        <title>Client Testimonials | skiliance</title>
         <meta name="description" content="Read what our clients say about our accounting services. Testimonials from businesses across various industries showcasing our expertise and quality service." />
       </Helmet>
       

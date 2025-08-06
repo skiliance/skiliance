@@ -162,7 +162,7 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Our Services | AcctFinance</title>
+        <title>Our Services | skiliance</title>
         <meta name="description" content="Explore our comprehensive accounting services including bookkeeping, tax preparation, payroll management, and financial consulting." />
       </Helmet>
       

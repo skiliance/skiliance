@@ -13,8 +13,8 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>AcctFinance | Professional Accounting Services</title>
-        <meta name="description" content="AcctFinance provides professional accounting services including bookkeeping, tax preparation, payroll, and financial consulting for businesses of all sizes." />
+        <title>skiliance | Professional Accounting Services</title>
+        <meta name="description" content="skiliance provides professional accounting services including bookkeeping, tax preparation, payroll, and financial consulting for businesses of all sizes." />
       </Helmet>
       
       <Navbar />

@@ -115,8 +115,8 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-primary flex-shrink-0" />
-                <a href="mailto:contact@acctfinance.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  contact@acctfinance.com
+                <a href="mailto:contact@skiliance.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  contact@skiliance.com
                 </a>
               </li>
             </ul>
@@ -125,7 +125,7 @@ export function Footer() {
         
         <div className="border-t border-border pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} AcctFinance. All rights reserved.
+            © {currentYear} skiliance. All rights reserved.
           </p>
         </div>
       </div>

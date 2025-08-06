@@ -11,7 +11,7 @@ const testimonials = [
     id: 1,
     name: "Sarah Johnson",
     position: "CEO, TechStart Inc.",
-    content: "AcctFinance transformed our financial management. Their team's expertise and attention to detail have saved us countless hours and improved our financial clarity. They're not just service providers, they're partners in our success.",
+    content: "skiliance transformed our financial management. Their team's expertise and attention to detail have saved us countless hours and improved our financial clarity. They're not just service providers, they're partners in our success.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200"
   },
@@ -19,7 +19,7 @@ const testimonials = [
     id: 2,
     name: "Michael Chen",
     position: "Founder, GreenEats",
-    content: "As a restaurant owner, accounting was always a challenge until we found AcctFinance. Their industry-specific knowledge and proactive approach have helped us optimize our finances and focus on what we do best - serving great food.",
+    content: "As a restaurant owner, accounting was always a challenge until we found skiliance. Their industry-specific knowledge and proactive approach have helped us optimize our finances and focus on what we do best - serving great food.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
   },
@@ -27,7 +27,7 @@ const testimonials = [
     id: 3,
     name: "Emily Rodriguez",
     position: "Director, Global Imports",
-    content: "Their expertise in international accounting has been invaluable for our import/export business. The team at AcctFinance handles our complex financial needs with professionalism and precision. Highly recommended!",
+    content: "Their expertise in international accounting has been invaluable for our import/export business. The team at skiliance handles our complex financial needs with professionalism and precision. Highly recommended!",
     rating: 5,
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200"
   },
@@ -35,7 +35,7 @@ const testimonials = [
     id: 4,
     name: "David Wilson",
     position: "Owner, Wilson Construction",
-    content: "AcctFinance's understanding of the construction industry has made them an essential part of our business. Their payroll and project accounting services have streamlined our operations and improved our bottom line.",
+    content: "skiliance's understanding of the construction industry has made them an essential part of our business. Their payroll and project accounting services have streamlined our operations and improved our bottom line.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200"
   },

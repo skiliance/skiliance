@@ -46,7 +46,7 @@ const ContactPage = () => {
       );
       
       // Open default email client with pre-filled data
-      window.location.href = `mailto:contact@acctfinance.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:contact@skiliance.com?subject=${subject}&body=${body}`;
       
       // Show success toast
       toast({
@@ -81,7 +81,7 @@ const ContactPage = () => {
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['contact@acctfinance.com', 'support@acctfinance.com'],
+      details: ['contact@skiliance.com', 'support@skiliance.com'],
       color: 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400',
     },
     {
@@ -112,7 +112,7 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Us | AcctFinance</title>
+        <title>Contact Us | skiliance</title>
         <meta name="description" content="Get in touch with our accounting team for inquiries, quotes, or to schedule a consultation. We're here to help with all your accounting needs." />
       </Helmet>
       
