@@ -100,13 +100,13 @@ const ContactPage = () => {
   
   const services = [
     { value: '', label: 'Select a service' },
-    { value: 'Bookkeeping', label: 'Bookkeeping' },
+    { value: 'Bookkeeping & Accounting', label: 'Bookkeeping & Accounting' },
     { value: 'Tax Preparation', label: 'Tax Preparation' },
-    { value: 'Payroll Services', label: 'Payroll Services' },
-    { value: 'Financial Consulting', label: 'Financial Consulting' },
-    { value: 'CFO Services', label: 'CFO Services' },
-    { value: 'Compliance Services', label: 'Compliance Services' },
-    { value: 'Other', label: 'Other' },
+    { value: 'Back-Office Support', label: 'Back-Office Support' },
+    { value: 'Sales & Customer Support Services', label: 'Sales & Customer Support Services' },
+    { value: 'Insurance Back-Office Support', label: 'Insurance Back-Office Support' },
+    { value: 'Business Process Outsourcing (BPO) Solutions', label: 'Business Process Outsourcing (BPO) Solutions' },
+    { value: 'Other', label: 'Other/ Mention in message field' },
   ];
   
   return (
