@@ -185,13 +185,13 @@ const ContactPage = () => {
                   </p>
                   <div className="aspect-[4/3] w-full rounded-2xl overflow-hidden">
                     <iframe 
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48371.15911986212!2d-74.01358333765856!3d40.71275503659586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sWall%20Street%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sca!4v1647885588456!5m2!1sen!2sca" 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.65625!2d73.398262!3d24.192997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4a503ad7df5%3A0xda48729e6f3e!2sUdaipur%2C%20Rajasthan%2C%20India!5e0!3m2!1sen!2sin!4v1647885588456" 
                       width="100%" 
                       height="100%" 
                       style={{ border: 0 }} 
                       allowFullScreen 
                       loading="lazy"
-                      title="Office Location"
+                      title="Office Location - Udaipur, Rajasthan"
                     ></iframe>
                   </div>
                 </div>
