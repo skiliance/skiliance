@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, BarChart3 } from 'lucide-react';
 import { ThemeToggle } from '@/components/ui/ThemeToggle';
 import { cn } from '@/lib/utils';
 
@@ -48,6 +48,7 @@ export function Navbar() {
           to="/"
           className="flex items-center space-x-2 text-2xl font-bold text-foreground"
         >
+          <BarChart3 size={28} className="text-primary" />
           <span className="text-primary">Skiliance</span>
           {/* <span>iance</span> */}
         </Link>

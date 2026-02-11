@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Circular background -->
+  <circle cx="100" cy="100" r="100" fill="#3b82f6"/>
+  
+  <!-- Inner circle for contrast -->
+  <circle cx="100" cy="100" r="95" fill="#ffffff" opacity="0.95"/>
+  
+  <!-- Bar chart icon (simplified) -->
+  <rect x="50" y="110" width="15" height="50" fill="#3b82f6"/>
+  <rect x="75" y="90" width="15" height="70" fill="#3b82f6"/>
+  <rect x="100" y="70" width="15" height="90" fill="#3b82f6"/>
+  <rect x="125" y="100" width="15" height="60" fill="#3b82f6"/>
+</svg>
