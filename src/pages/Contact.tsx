@@ -84,12 +84,12 @@ const ContactPage = () => {
       details: ['info@skiliance.com'],
       color: 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400',
     },
-    // {
-    //   icon: MapPin,
-    //   title: 'Visit Us',
-    //   details: ['123 Finance Street, Suite 400', 'New York, NY 10001'],
-    //   color: 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400',
-    // },
+    {
+      icon: MapPin,
+      title: 'Visit Us',
+      details: ['Udaipur', 'Rajasthan, India'],
+      color: 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400',
+    },
     {
       icon: Clock,
       title: 'Working Hours',
@@ -353,7 +353,7 @@ const ContactPage = () => {
                 <div className="card-glass p-6">
                   <h3 className="text-xl font-semibold mb-3">Do you offer virtual consultations?</h3>
                   <p className="text-muted-foreground">
-                    Yes, we offer both in-person and virtual consultations to accommodate your preferences 
+                    Yes, we offer virtual consultations to accommodate your preferences 
                     and schedule. Our virtual meetings are conducted securely via video conferencing.
                   </p>
                 </div>
