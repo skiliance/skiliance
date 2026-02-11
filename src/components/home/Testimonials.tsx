@@ -20,7 +20,7 @@ const testimonials = [
     name: "Michael Chen",
     position: "Founder, GreenEats",
     content: "As a restaurant owner, accounting was always a challenge until we found skiliance. Their industry-specific knowledge and proactive approach have helped us optimize our finances and focus on what we do best - serving great food.",
-    rating: 5,
+    rating: 4,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200"
   },
   {
@@ -28,7 +28,7 @@ const testimonials = [
     name: "Emily Rodriguez",
     position: "Director, Global Imports",
     content: "Their expertise in international accounting has been invaluable for our import/export business. The team at skiliance handles our complex financial needs with professionalism and precision. Highly recommended!",
-    rating: 5,
+    rating: 4,
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=200"
   },
   {
@@ -108,7 +108,7 @@ export function TestimonialsSection({ className }: { className?: string }) {
                     <blockquote className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 italic line-clamp-6 md:line-clamp-none">
                       "{testimonial.content}"
                     </blockquote>
-                    <div className="flex items-center gap-3 md:gap-4">
+                    {/* <div className="flex items-center gap-3 md:gap-4">
                       <img 
                         src={testimonial.image} 
                         alt={testimonial.name} 
@@ -118,7 +118,7 @@ export function TestimonialsSection({ className }: { className?: string }) {
                         <div className="font-semibold text-sm md:text-base">{testimonial.name}</div>
                         <div className="text-xs md:text-sm text-muted-foreground">{testimonial.position}</div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}
