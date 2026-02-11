@@ -4,7 +4,6 @@ import {
   Phone, 
   Mail, 
   MapPin, 
-  Facebook, 
   Twitter, 
   Instagram, 
   Linkedin 
@@ -30,16 +29,42 @@ export function Footer() {
               Professional accounting services tailored to your business needs. We handle the numbers so you can focus on growth.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-foreground/70 hover:text-primary transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
+              <a
+                href="https://wa.me/919468795191?text=Hello%20I%20want%20to%20contact%20you"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition-colors"
+                aria-label="WhatsApp"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-phone">
+                  <path d="M21 15a4 4 0 0 1-4 4h-1a1 1 0 0 1-1-1v-2.2a1 1 0 0 0-.7-.95l-2-0.5a11 11 0 0 1-5.1-3.2 11 11 0 0 1-3.2-5.1l-0.5-2A1 1 0 0 0 6.2 4H4a1 1 0 0 1-1-1V2a4 4 0 0 1 4-4h.5A18 18 0 0 1 21 15z" />
+                </svg>
               </a>
-              <a href="#" className="text-foreground/70 hover:text-primary transition-colors" aria-label="Twitter">
+              <a
+                href="https://x.com/Skiliance"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition-colors"
+                aria-label="X"
+              >
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-foreground/70 hover:text-primary transition-colors" aria-label="Instagram">
+              <a
+                href="https://www.instagram.com/skiliance?igsh=MTI5a3ZsdG9pMXByZw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition-colors"
+                aria-label="Instagram"
+              >
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-foreground/70 hover:text-primary transition-colors" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/company/skiliance/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-primary transition-colors"
+                aria-label="LinkedIn"
+              >
                 <Linkedin size={20} />
               </a>
             </div>

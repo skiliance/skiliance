@@ -21,8 +21,8 @@ import { AnimateInView } from '@/components/animations/AnimateInView';
 const services = [
   {
     id: 'bookkeeping',
-    title: 'Bookkeeping',
-    description: 'Our comprehensive bookkeeping services ensure your financial records are accurate, organized, and up-to-date.',
+    title: 'Book keeping & Accounting',
+    description: 'We provide comprehensive accounting support to businesses across Australia, UAE, UK, and the US, ensuring accuracy, compliance, and timely financial reporting.',
     icon: FileText,
     color: 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400',
     features: [
@@ -34,19 +34,34 @@ const services = [
       'Cloud-based accounting system setup'
     ]
   },
-  {
-    id: 'tax',
+    {
+    id: 'taxation',
     title: 'Tax Preparation',
-    description: 'Stay compliant and minimize your tax burden with our expert tax preparation and planning services.',
+    description: 'Our taxation services are designed to ensure full regulatory compliance while minimizing risk and maintaining accurate reporting standards',
     icon: Calculator,
     color: 'bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400',
     features: [
-      'Business and individual tax return preparation',
-      'Quarterly estimated tax payments',
-      'Tax planning and strategy',
-      'IRS representation',
-      'Sales tax compliance',
-      'International tax considerations'
+    'Individual and business tax return preparation',
+    'BAS & GST preparation (Australia)',
+    'VAT return preparation (UAE)',
+    'Corporate tax support',
+    'Tax documentation review',
+    'Regulatory correspondence assistance'
+    ]
+  },
+  {
+    id: 'tax',
+    title: 'Back-Office Support',
+    description: 'We deliver structured operational support that improves efficiency and allows businesses to focus on growth and client service.',
+    icon: Calculator,
+    color: 'bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400',
+    features: [
+      'Administrative process support',
+      'Invoice and billing management',
+      'CRM administration',
+      'Documentation management',
+      'Reporting and data organization',
+      'Virtual executive assistance'
     ]
   },
   {
@@ -66,47 +81,47 @@ const services = [
   },
   {
     id: 'consulting',
-    title: 'Financial Consulting',
-    description: 'Gain valuable insights and strategic guidance to improve your financial performance and achieve your goals.',
+    title: 'Sales & Customer Support Services',
+    description: 'Our customer engagement team helps businesses enhance client relationships and drive revenue growth through structured communication support.',
     icon: BarChart3,
     color: 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400',
     features: [
-      'Financial analysis and forecasting',
-      'Cash flow management',
-      'Budget development and monitoring',
-      'Profit improvement strategies',
-      'Business plan development',
-      'Financial software selection and implementation'
+      'Inbound and outbound customer communication',
+      'Lead qualification and follow-ups',
+      'Appointment scheduling',
+      'Client relationship management support',
+      'Sales coordination assistance',
+      'Customer service operations'
     ]
   },
   {
     id: 'cfos',
-    title: 'CFO Services',
-    description: 'Get the expertise of a Chief Financial Officer without the full-time expense, tailored to your business needs.',
+    title: 'Insurance Back-Office Support',
+    description: 'We provide specialized operational support services for insurance agencies and brokers in the US market. Our team helps streamline administrative tasks, improve efficiency, and enhance client service for insurance professionals.',
     icon: Briefcase,
     color: 'bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400',
     features: [
-      'Strategic financial planning',
-      'Financial risk assessment',
-      'Investment analysis',
-      'Board and investor reporting',
-      'Mergers and acquisitions support',
-      'Debt and equity financing assistance'
+      'Policy processing support',
+      'Claims documentation assistance',
+      'Underwriting support coordination',
+      'Compliance documentation review',
+      'CRM and policy management updates',
+      'Client onboarding assistance'
     ]
   },
   {
     id: 'compliance',
-    title: 'Compliance Services',
-    description: 'Ensure your business meets all financial regulations and requirements with our compliance services.',
+    title: 'Business Process Outsourcing (BPO) Solutions',
+    description: 'End-to-end remote staffing solutions tailored to your business requirements.',
     icon: FileCheck,
     color: 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400',
     features: [
-      'Regulatory compliance reviews',
-      'Internal controls assessment',
-      'Financial statement audits',
-      'Industry-specific compliance',
-      'Policy and procedure development',
-      'Compliance training'
+      'Dedicated offshore staff model',
+      'Process outsourcing support',
+      'Operational workflow management',
+      'Data management and reporting',
+      'Business support services',
+      'Customized outsourcing solutions'
     ]
   },
   {
