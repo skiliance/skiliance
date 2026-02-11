@@ -46,7 +46,7 @@ const ContactPage = () => {
       );
       
       // Open default email client with pre-filled data
-      window.location.href = `mailto:contact@skiliance.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:info@skiliance.com?subject=${subject}&body=${body}`;
       
       // Show success toast
       toast({
@@ -75,21 +75,21 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: 'Call Us',
-      details: ['+1 (234) 567-8900', '+1 (234) 567-8901'],
+      details: ['+91 9468795191'],
       color: 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400',
     },
     {
       icon: Mail,
       title: 'Email Us',
-      details: ['contact@skiliance.com', 'support@skiliance.com'],
+      details: ['info@skiliance.com'],
       color: 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400',
     },
-    {
-      icon: MapPin,
-      title: 'Visit Us',
-      details: ['123 Finance Street, Suite 400', 'New York, NY 10001'],
-      color: 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400',
-    },
+    // {
+    //   icon: MapPin,
+    //   title: 'Visit Us',
+    //   details: ['123 Finance Street, Suite 400', 'New York, NY 10001'],
+    //   color: 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400',
+    // },
     {
       icon: Clock,
       title: 'Working Hours',

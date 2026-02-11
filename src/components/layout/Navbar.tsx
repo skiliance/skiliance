@@ -32,7 +32,7 @@ export function Navbar() {
   const navItems = [
     { label: 'Home', path: '/' },
     { label: 'Services', path: '/services' },
-    { label: 'Testimonials', path: '/testimonials' },
+    // { label: 'Testimonials', path: '/testimonials' },
     { label: 'Contact', path: '/contact' },
   ];
   

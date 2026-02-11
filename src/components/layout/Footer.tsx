@@ -105,18 +105,18 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-primary flex-shrink-0 mt-0.5" />
-                <span className="text-muted-foreground">123 Finance Street, Suite 400<br />New York, NY 10001</span>
+                <span className="text-muted-foreground">India, Rajasthan<br />Udaipur 313002</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={20} className="text-primary flex-shrink-0" />
-                <a href="tel:+12345678900" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-8900
+                <a href="tel:+919468795191" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 9468795191
                 </a>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-primary flex-shrink-0" />
                 <a href="mailto:contact@skiliance.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  contact@skiliance.com
+                  info@skiliance.com
                 </a>
               </li>
             </ul>
