@@ -18,6 +18,18 @@ import { CTASection } from '@/components/home/CTA';
 import { ScrollToTop } from '@/components/animations/ScrollToTop';
 import { AnimateInView } from '@/components/animations/AnimateInView';
 
+const serviceImages = [
+  '/images/services/pexels-artempodrez-6779567.jpg',
+  '/images/services/pexels-cottonbro-6862457.jpg',
+  '/images/services/pexels-kunitsky-210990.jpg',
+  '/images/services/pexels-leeloothefirst-8962520.jpg',
+  '/images/services/pexels-leeloothefirst-8962521.jpg',
+  '/images/services/pexels-mikhail-nilov-8297053.jpg',
+  '/images/services/pexels-pixabay-164686.jpg',
+  '/images/services/pexels-tara-winstead-7111561.jpg',
+  '/images/services/pexels-tima-miroshnichenko-6694569.jpg'
+];
+
 const services = [
   {
     id: 'bookkeeping',
@@ -245,11 +257,11 @@ const Services = () => {
                         <div className="absolute inset-0 -z-10">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl blur-xl" />
                         </div>
-                        <div className="card-glass p-6 md:p-8 aspect-[4/3] flex items-center justify-center">
+                        <div className="card-glass aspect-[4/3] flex items-center justify-center overflow-hidden">
                           <img 
-                            src={`https://images.unsplash.com/photo-${1550565118 + index * 50000}?auto=format&fit=crop&q=80&w=800`}
+                            src={serviceImages[index]}
                             alt={`${service.title} service illustration`}
-                            className="rounded-lg max-w-full max-h-full object-cover"
+                            className="w-full h-full object-cover"
                           />
                         </div>
                       </div>
