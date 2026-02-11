@@ -2,15 +2,16 @@
 import { Helmet } from 'react-helmet';
 import { useEffect, useRef } from 'react';
 import { useLocation } from 'react-router-dom';
-import { 
-  FileText, 
-  Calculator, 
-  DollarSign, 
+import {
+  FileText,
+  Calculator,
+  DollarSign,
   BarChart3,
   Briefcase,
   FileCheck,
   TrendingUp,
-  Shield
+  Shield,
+  Code
 } from 'lucide-react';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
@@ -27,13 +28,13 @@ const serviceImages = [
   '/images/services/pexels-mikhail-nilov-8297053.jpg',
   '/images/services/pexels-pixabay-164686.jpg',
   '/images/services/pexels-tara-winstead-7111561.jpg',
-  '/images/services/pexels-tima-miroshnichenko-6694569.jpg'
+  '/images/services/rear-view-programmer-working-all-night-long.jpg'
 ];
 
 const services = [
   {
     id: 'bookkeeping',
-    title: 'Book keeping & Accounting',
+    title: 'Bookkeeping & Accounting',
     description: 'We provide comprehensive accounting support to businesses across Australia, UAE, UK, and the US, ensuring accuracy, compliance, and timely financial reporting.',
     icon: FileText,
     color: 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400',
@@ -46,19 +47,19 @@ const services = [
       'Cloud-based accounting system setup'
     ]
   },
-    {
+  {
     id: 'taxation',
     title: 'Tax Preparation',
     description: 'Our taxation services are designed to ensure full regulatory compliance while minimizing risk and maintaining accurate reporting standards',
     icon: Calculator,
     color: 'bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400',
     features: [
-    'Individual and business tax return preparation',
-    'BAS & GST preparation (Australia)',
-    'VAT return preparation (UAE)',
-    'Corporate tax support',
-    'Tax documentation review',
-    'Regulatory correspondence assistance'
+      'Individual and business tax return preparation',
+      'BAS & GST preparation (Australia)',
+      'VAT return preparation (UAE)',
+      'Corporate tax support',
+      'Tax documentation review',
+      'Regulatory correspondence assistance'
     ]
   },
   {
@@ -137,21 +138,6 @@ const services = [
     ]
   },
   {
-    id: 'startup',
-    title: 'Startup Services',
-    description: 'Special accounting and financial services designed to help startups establish solid financial foundations.',
-    icon: TrendingUp,
-    color: 'bg-teal-100 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400',
-    features: [
-      'Entity structure selection',
-      'Initial accounting setup',
-      'Funding preparation',
-      'Burn rate analysis',
-      'Investor financial reporting',
-      'Growth planning and scaling'
-    ]
-  },
-  {
     id: 'audit',
     title: 'Audit & Assurance',
     description: 'Independent verification of financial information to enhance credibility and identify areas for improvement.',
@@ -165,13 +151,28 @@ const services = [
       'Due diligence reviews',
       'Compliance audits'
     ]
-  }
+  },
+  {
+    id: 'development',
+    title: 'Software Development Services',
+    description: 'Custom software development and engineering solutions designed to build robust, scalable applications tailored to your business needs. built by ronrevv',
+    icon: Code,
+    color: 'bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400',
+    features: [
+      'Full-stack web application development',
+      'Mobile app development (iOS & Android)',
+      'API design and integration',
+      'Database architecture and optimization',
+      'Cloud infrastructure setup',
+      'Ongoing maintenance and technical support'
+    ]
+  },
 ];
 
 const Services = () => {
   const location = useLocation();
   const refs = useRef<{ [key: string]: HTMLDivElement | null }>({});
-  
+
   useEffect(() => {
     // Scroll to the section if there's a hash in the URL
     if (location.hash) {
@@ -180,21 +181,21 @@ const Services = () => {
       if (element) {
         const navbarHeight = 80; // Approximate navbar height
         const y = element.getBoundingClientRect().top + window.scrollY - navbarHeight;
-        
+
         window.scrollTo({ top: y, behavior: 'smooth' });
       }
     }
   }, [location]);
-  
+
   return (
     <>
       <Helmet>
         <title>Our Services | skiliance</title>
         <meta name="description" content="Explore our comprehensive accounting services including bookkeeping, tax preparation, payroll management, and financial consulting." />
       </Helmet>
-      
+
       <Navbar />
-      
+
       <main>
         {/* Services Hero */}
         <section className="pt-32 pb-16 md:pb-24 relative overflow-hidden">
@@ -203,14 +204,14 @@ const Services = () => {
             <div className="absolute top-1/4 -left-64 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
             <div className="absolute bottom-1/4 -right-64 w-96 h-96 bg-primary/10 rounded-full blur-3xl" />
           </div>
-          
+
           <div className="container-custom text-center">
             <AnimateInView animation="fade-up">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                 Our Services
               </h1>
             </AnimateInView>
-            
+
             <AnimateInView animation="fade-up" delay="delay-100">
               <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
                 We offer comprehensive accounting solutions to businesses of all sizes.
@@ -219,15 +220,15 @@ const Services = () => {
             </AnimateInView>
           </div>
         </section>
-        
+
         {/* Services List */}
         <section className="py-16 md:py-24">
           <div className="container-custom">
             <div className="grid grid-cols-1 gap-16 md:gap-24">
               {services.map((service, index) => (
-                <div 
-                  key={service.id} 
-                  id={service.id} 
+                <div
+                  key={service.id}
+                  id={service.id}
                   ref={(el) => (refs.current[service.id] = el)}
                   className="scroll-mt-24"
                 >
@@ -251,14 +252,14 @@ const Services = () => {
                         </ul>
                       </div>
                     </AnimateInView>
-                    
+
                     <AnimateInView animation="fade-up" delay="delay-100">
                       <div className="relative">
                         <div className="absolute inset-0 -z-10">
                           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-2xl blur-xl" />
                         </div>
                         <div className="card-glass aspect-[4/3] flex items-center justify-center overflow-hidden">
-                          <img 
+                          <img
                             src={serviceImages[index]}
                             alt={`${service.title} service illustration`}
                             className="w-full h-full object-cover"
@@ -272,10 +273,10 @@ const Services = () => {
             </div>
           </div>
         </section>
-        
+
         <CTASection />
       </main>
-      
+
       <Footer />
       <ScrollToTop />
     </>
